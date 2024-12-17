@@ -21,11 +21,11 @@ An intelligent OCR assistant that can analyze images and communicate results thr
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/cristim67/proiect-iom.git
+git clone https://github.com/cristim67/ocr-conversational-ai.git
 ```
 2. Create a virtual environment:
 ```bash 
-python -m venv venv
+python3 -m venv venv
 ```
 3. Activate the virtual environment:
 ```bash
@@ -33,11 +33,11 @@ source venv/bin/activate
 ```
 4. Install dependencies:
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 5. Run the application:
 ```bash
-python app.py
+python3 app.py
 ```
 
 ## Usage
