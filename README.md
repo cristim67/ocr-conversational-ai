@@ -13,7 +13,7 @@ An intelligent OCR assistant that can analyze images and communicate results thr
 ## System Requirements
 
 - [Python 3.10+](https://www.python.org/downloads/)
-- [Ollama](https://ollama.ai/) with [llama3.2-vision model](https://ollama.ai/models/llama3.2-vision) installed
+- [Ollama](https://ollama.ai/) with [llama3.2-vision model](https://ollama.com/library/llama3.2-vision) installed
 - Working microphone
 - Speakers or headphones
 
