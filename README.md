@@ -8,7 +8,7 @@ An intelligent OCR assistant that can analyze images and communicate results thr
 - Optical Character Recognition (OCR)
 - Two-way voice communication (Text-to-Speech and Speech-to-Text)
 - Romanian language support
-- Ability to interrupt conversation using the word "done"
+- Ability to interrupt conversation using the word "stop" or "gata"
 
 ## System Requirements
 
