@@ -36,7 +36,7 @@ def recognize_speech_from_mic():
         print("Te rog să vorbești...")
         recognizer.adjust_for_ambient_noise(source, duration=1)
         try:
-            audio = recognizer.listen(source, timeout=5, phrase_time_limit=5)
+            audio = recognizer.listen(source, timeout=7, phrase_time_limit=10)
             print("Audio capturat cu succes.")
         except Exception as e:
             print(f"Eroare la capturarea audio: {e}")
@@ -132,7 +132,7 @@ class OCRInterface:
         if self.image_path:
             self.root.withdraw()
             interactive_conversation(self.image_path)
-
+            
 if __name__ == "__main__":
     root = tk.Tk()
     app = OCRInterface(root)
